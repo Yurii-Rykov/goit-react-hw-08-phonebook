@@ -1,0 +1,33 @@
+.list {
+    width: 300px;
+    margin-top: 24px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: black;
+    padding: 3px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    margin-right: 10px;
+    font-weight: 600;
+}

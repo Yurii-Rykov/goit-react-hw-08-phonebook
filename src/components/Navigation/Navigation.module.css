@@ -1,0 +1,56 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.thumb {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 28px;
+    color: black;
+}
+
+.link:hover {
+    color: gray
+}
+
+.active {
+    composes: link;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;  
+}
+
+.button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 300ms linear;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 20px;
+    text-align: center;
+}
+
